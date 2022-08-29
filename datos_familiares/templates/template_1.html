@@ -7,8 +7,9 @@
     <title>PrimerMVT</title>
 </head>
 <body>
+Lista de familiares:
 {%for pariente in familiar%}
-<p>Nombre:{{pariente.nombre}}<br>{{pariente.apellido}}<br>{{pariente.altura_cm}}<br>{{pariente.fecha_de_nacimiento}}</p>
+<p><b>Nombre:</b> {{pariente.nombre}}<br><b>Apellido:</b> {{pariente.apellido}}<br><b>Altura:</b> {{pariente.altura_cm}}cm<br><b>Fecha de nacimiento:</b> {{pariente.fecha_de_nacimiento}}</p>
 {%endfor%}   
 </body>
 </html>
